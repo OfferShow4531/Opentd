@@ -1,0 +1,35 @@
+body{
+  font-size: 50px;
+  color: chartreuse;
+  background: green;
+}
+fieldset{
+  background: darkgreen;
+}
+button{
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  background: darkgreen;
+}
+select{
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  left:40%;
+  background: darkcyan;
+}
+#blink5 {
+  -webkit-animation: blink5 2s linear infinite;
+  animation: blink5 2s linear infinite;
+}
+@-webkit-keyframes blink5 {
+  0% { color: rgb(0, 562, 41); }
+  50% { color: rgb(183, 65, 14); }
+  100% { color: rgb(128, 0, 0); }
+}
+@keyframes blink5 {
+  0% { color: rgb(128, 0, 0); }
+  50% { color: rgb(183, 65, 14); }
+  100% { color: rgb(128, 0, 0); }
+}
